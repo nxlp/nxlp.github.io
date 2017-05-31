@@ -1,0 +1,123 @@
+
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Racing+Sans+One|Satisfy);
+
+body {
+    font-size: 200%;
+    text-align: center;
+    font-family: Libre Baskerville;
+    background-color: rgb(236, 240, 241);
+}
+
+/*
+    ... and give links a nice look.
+*/
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+a:hover,
+a:focus {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+
+p {
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    text-align: center;
+}
+
+pre {
+    text-align: left;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+tt {
+    font-size: 125;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    font-family: serif;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    padding-left: 0.3em;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#hi {
+
+    display: block;
+
+    width: 200px;
+    height: 150px;
+    padding: 30px 20px;
+
+    background-color: rgb(52, 73, 94);;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(46, 204, 113);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+#welcome {
+    display: block;
+
+    width: 800px;
+    height: 190px;
+    padding: 30px 20px;
+
+    background-color: rgb(52, 73, 94);;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(46, 204, 113);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+}
+
+
+
+
+
+#hi.em {
+  font-family: Satisfy;
+    font-size: 142%;
+  
+}
+
+
+.hidden {
+    display: none;
+}
